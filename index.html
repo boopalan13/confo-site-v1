@@ -8,19 +8,18 @@
     <meta content="" name="description">
 
     <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="/img/act.png" rel="icon">
-    <link href="/img/au.png" rel="apple-touch-icon">
+    <link href="img/actn.png" rel="icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
 
     <!-- Libraries CSS Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/venobox/venobox.css" rel="stylesheet">
@@ -32,7 +31,7 @@
     Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
-  ======================================================= -->
+    ======================================================= -->
     <style>
         .dropbtn {
             background-color: #fe0252;
@@ -81,32 +80,34 @@
 <body>
     <!--==========================
     Header
-  ============================-->
+    ============================-->
+    
+    <button type="button" id="mobile-nav-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
     <header id="header">
         <div class="container">
             <div id="logo" class="pull-left">
                 <!-- Uncomment below if you prefer to use a text logo -->
-                <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-                <h2><a href="#intro" class="scrollto">ACT2024</a></h2>
+                <img width="50" height="200" src="/confo-site-v1/img/actn.png" alt="Agni College of Technology" >
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li class="menu-active"><a href="index.html">Home</a></li>
-                    
-                    <!-- <li><a href="#speakers">Speakers</a></li>-->
+                    <li><a href="#speaker">Speakers</a></li>
                     <li><a href="Conference.html">Conference</a></li>
                     <li><a href="TechNext'24.html">TechNext'24</a></li>
                     <li><a href="BOLT 2.0.html">BOLT 2.0</a></li>
                     <li><a href="Visa.html">Visa</a></li>
-                    <!--  <li><a href="http://ACT.ieeesabah.org/#supporters">Organizers</a></li>-->
+                    <li><a href="#supporters">Organizers</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <!--  <li class="buy-tickets"><a target="blank" href="papersubmission2024.html">Paper Submission</a></li>
             <li class="buy-tickets"><a target="blank" href="authorinstruction2024.html">Author Instruction</a></li> -->
                     <div class="dropdown">
                         <button class="dropbtn">Organizers</button>
                         <div class="dropdown-content">
-                            <li><a href="http://ACT.ieeesabah.org/#supporters">Organizers</a></li>
-                            <li><a href="http://ACT.ieeesabah.org/#contact">Contact</a></li>
+                            <li><a href="#supporters" target="_self">Organizers</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </div>
                     </div>
                     <div class="dropdown">
@@ -134,14 +135,13 @@
     <!-- #header -->
     <!--==========================
     Intro Section
-  ============================-->
+    ============================-->
     <section id="intro">
         <div class="intro-container wow fadeIn">
             <h1 class="mb-4 pb-0">ACT 2024<br><span>First International Conference </span> <br>on Intelligence in Engineering</h1>
             <p class="mb-4 pb-0">This Conference to be held in the place of the Agni College of Technology on some day at the time  </p>
-            <a href="https://www.act.edu.in" target="_blank" class="Explore Agni College of Technology </a>
-            <!-- <a href="https://youtu.be" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true"></a> -->
+            <a href="https://www.act.edu.in" target="_blank" class="Explore Agni College of Technology"></a>
+            <a href="https://youtu.be/873qIUoY_Fs?si=w0nwGJ_Mv4jK_l18" class="venobox play-btn mb-4" data-vbtype="video"data-autoplay="true"></a> 
             <a href="#about" class="about-btn scrollto">About The ACT 2024</a>
             <a href="img/speakers/Agni_11zon.pdf" target="_blank" class="about-btn scrollto">Download Conference Program Book</a>
             <a href="scheduleACT2024.html" target="_blank" class="about-btn scrollto">View Presentation Schedule </a>
@@ -151,7 +151,7 @@
     </section>
     <main id="main">
         <!--==========================
-      About Section
+         About Section
         ============================-->
         <section id="about">
             <div class="container">
@@ -209,42 +209,36 @@
                         <div class="row schedule-item  fade show active">
                             <div class="col-md-4"><time><h4>Submission of Full Paper</h4></time></div>
                             <div class="col-md-8">
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i> Date of Submission</h4>
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i> Apr last week</h4>
+                                <h4><i class="fas fa-calendar" aria-hidden="true"></i> Date of Submission</h4>
+                                <h4><i class="fas fa-calendar" aria-hidden="true"></i> Apr last week</h4>
                             </div>
                         </div>
                         <div class="row schedule-item  fade show active">
                             <div class="col-md-4"><time><h4>Notification of Acceptance</h4></time></div>
                             <div class="col-md-8">
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i>  Date of acceptance</h4>
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i>  May First' 01</h4>
+                                <h4><i class="fas fa-calendar" aria-hidden="true"></i>  Date of acceptance</h4>
+                                <h4><i class="fas fa-calendar" aria-hidden="true"></i>  May First' 01</h4>
                             </div>
                         </div>
                         <div class="row schedule-item  fade show active">
                             <div class="col-md-4"><time><h4>Submission of Camera-ready Paper</h4></time></div>
                             <div class="col-md-8">
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i> Date of Camera-ready Paper </h4>
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i> May First Week </h4>
+                                <h4><i class="fas fa-calendar" aria-hidden="true"></i> Date of Camera-ready Paper </h4>
+                                <h4><i class="fas fa-calendar" aria-hidden="true"></i> May First Week </h4>
                             </div>
                         </div>
                         <div class="row schedule-item  fade show active">
                             <div class="col-md-4"><time><h4>Registration and Payment Deadline</h4></time></div>
                             <div class="col-md-4"><time><h4>Registration and  Deadline</h4></time></div>
                             <div class="col-md-8">
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i>Date of Deadline </h4>
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i>May '09' </h4>
+                                <h4><i class="fas fa-calendar" aria-hidden="true"></i>Date of Deadline </h4>
+                                <h4><i class="fas fa-calendar" aria-hidden="true"></i>May '09' </h4>
                             </div>
                         </div>
-
                     </div>
                     <!-- End Schdule Day 1 -->
-
-
-
                 </div>
-
             </div>
-
         </section>
 
     <!--==========================
@@ -253,7 +247,7 @@
         <section id="schedule" class="section-with-bg">
             <div class="container wow fadeInUp">
                 <div class="section-header">
-                    <h2>Keynote Speakers</h2>
+                    <h2 id="speaker">Keynote Speakers</h2>
                     <p>ACT 2024</p>
                 </div>
                 <div class="tab-content row justify-content-center">
@@ -266,13 +260,10 @@
                                 <h4>Keynote Speaker: Prof. Dr. Srinivasa Alavandar (Agni College of Technology) </h4>
                                 <p>Title: abc</p>
                                 <p style="margin-left:70px"> <a href="index.html" target="_blank">more details</a> </p>
-
                             </div>
                         </div>
-
-<!--
+                    <!--
                         <div class="row schedule-item">
-
                            <div class="col-md-10">
                                 <div class="speaker">
                                     <img src="img/speakers/ece_hod_rathna_lakshmi.jpg" alt=" The HOD of Dept ECE Sree Rathna Lakshmi
@@ -284,16 +275,14 @@
                                 <p style="margin-left:70px"> <a href="index.html" target="_blank">more details</a> </p>
                             </div>
                         </div>
-                        </div>-->
-
-
-
+                        </div>
+                    -->
                     </div>
                 </div>
         </section>
         <!--==========================
-      Schedule Section
-    ============================-->
+        Schedule Section
+        ============================-->
         <section id="schedule" class="section-with-bg">
             <div class="container wow fadeInUp">
                 <div class="section-header">
@@ -320,7 +309,7 @@
                         <div class="row schedule-item">
                             <div class="col-md-2"><time><a href="index.html" target="_blank">ACT 2022</a></time></div>
                             <div class="col-md-10">
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i>  2022 </h4>
+                                <h4><i class="fasfa-calendar" aria-hidden="true"></i>  2022 </h4>
                                 <p><a href="ref.html" target="_blank">More Details on ACT2022</a></p>
                             </div>
                         </div>
@@ -356,7 +345,7 @@
                             </div>
                         </div>
 
-<!---
+                    <!---
                         <div class="row schedule-item">
                             <div class="col-md-2"><time></time></div>
                             <div class="col-md-10">
@@ -387,7 +376,8 @@
                                 <p>Title: The topic of the content who speaks in the conference</p>
                             </div>
                         </div>
-                        </div>-->
+                        </div>
+                    -->
 
                     </div>
 
@@ -397,7 +387,7 @@
                         <div class="row schedule-item">
                             <div class="col-md-2"><time><a href="index.html" target="_blank">ACT 2021</a></time></div>
                             <div class="col-md-10">
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i> date </h4>
+                                <h4><i class="fasfa-calendar" aria-hidden="true"></i> date </h4>
                                 <p><a href="index.html" target="_blank">More Details on ACT2021</a></p>
                             </div>
                         </div>
@@ -433,7 +423,7 @@
                             </div>
                         </div>
 
-<!---
+                    <!---
                         <div class="row schedule-item">
                             <div class="col-md-2"><time></time></div>
                             <div class="col-md-10">
@@ -464,7 +454,8 @@
                                 <p>The topic who speak in conference</p>
                             </div>
                         </div>
-                        </div>-->
+                        </div>
+                    -->
 
                     </div>
                     <!-- End Schdule Day 2 -->
@@ -473,7 +464,7 @@
                         <div class="row schedule-item">
                             <div class="col-md-2"><time><a href="index.html" target="_blank">ACT 2020</a></time></div>
                             <div class="col-md-10">
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i>  2020 </h4>
+                                <h4><i class="fasfa-calendar" aria-hidden="true"></i>  2020 </h4>
                                 <p><a href="index.html" target="_blank">More Details on ACT2020</a></p>
                             </div>
                         </div>
@@ -505,11 +496,10 @@
                                 </div>
                                 <h4>Keynote 1: <span>Prof.Dr.Srinivasa Alavandar ,  University</span></h4>
                                 <p>Actualy this is the topic who speaker wants to speak in the conference</p>
-
                             </div>
                         </div>
 
-<!--
+                    <!--
                         <div class="row schedule-item">
                             <div class="col-md-2"><time></time></div>
                             <div class="col-md-10">
@@ -540,7 +530,8 @@
                                 <p>...</p>
                             </div>
                         </div>
-                        </div>-->
+                        </div>
+                    -->
 
                     </div>
                     <!-- End Schdule Day 3 -->
@@ -549,7 +540,7 @@
                         <div class="row schedule-item">
                             <div class="col-md-2"><time><a href="index.html" target="_blank">ACT 2018</a></time></div>
                             <div class="col-md-10">
-                                <h4><i class="fa fa-calendar" aria-hidden="true"></i> 2018</h4>
+                                <h4><i class="fasfa-calendar" aria-hidden="true"></i> 2018</h4>
                                 <p><a href="index.html" target="_blank">More Details on ACT2018</a></p>
                             </div>
                         </div>
@@ -585,7 +576,7 @@
                             </div>
                         </div>
 
-<!--
+                    <!--
                         <div class="row schedule-item">
                             <div class="col-md-2"><time></time></div>
                             <div class="col-md-10">
@@ -596,16 +587,17 @@
                                 <p>title whoever speak </p>
                             </div>
                         </div>
-                        </div>-->
+                        </div>
+                    -->
                     </div>
                     <!-- End Schdule Day 4 -->
 
                 </div>
             </div>
         </section>
-        <!--==========================
-      Venue Section
-    ============================-->
+      <!--==========================
+        Venue Section
+      ============================-->
         
         <section id="venue" class="wow fadeInUp">
             <div class="container-fluid">
@@ -634,36 +626,36 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="venue-gallery">
                             <a href="img/Envo/1705674015641.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/Envo/1705674015641.jpg" alt="" class="img-fluid" style="width: 400px; height: 336px;">
-              </a>
+                                <img src="img/Envo/1705674015641.jpg" alt="" class="img-fluid" style="width: 400px; height: 336px;">
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="venue-gallery">
-                            <a href="img/Envo/1705674015649.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/Envo/1705674015649.jpg" alt="" class="img-fluid">
-              </a>
+                            <a href="img/Envo/1705674015649.jpg" class="venobox" data-gall="venue-gallery"> 
+                                <img src="img/Envo/1705674015649.jpg" alt="" class="img-fluid">
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="venue-gallery">
                             <a href="img/Envo/1705674015654.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/Envo/1705674015654.jpg" alt="" class="img-fluid" style="height: 336px;">
-              </a>
+                                <img src="img/Envo/1705674015654.jpg" alt="" class="img-fluid" style="height: 336px;">
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="venue-gallery">
                             <a href="img/Envo/1705674015663.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/Envo/1705674015663.jpg" alt="" class="img-fluid" style="height: 336px;">
-              </a>
+                                <img src="img/Envo/1705674015663.jpg" alt="" class="img-fluid" style="height: 336px;">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         
-        <!--==========================
+    <!--==========================
       Gallery Section
     ============================-->
     <section id="gallery" class="wow fadeInUp">
@@ -692,7 +684,7 @@
           <a href="img/Envo/AllEvent/1705674085201.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/Envo/AllEvent/1705674085201.jpg" alt="" style="height: 200px;"></a>
       </div>
   </section>
-  <!--==========================
+<!--==========================
 Sponsors Section
 ============================-->
   <section id="supporters" class="section-with-bg wow fadeInUp">
@@ -833,7 +825,7 @@ Sponsors Section
                     </div>
                 </div>
         </section>
-                <!-- <div class="form">
+        <!-- <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
           <form action="" method="post" role="form" class="contactForm">
@@ -868,11 +860,6 @@ Sponsors Section
                     <div class="footer-top">
                         <div class="container">
                             <div class="row">
-
-
-
-
-
                                 <div class="col-lg-3 col-md-6 footer-info">
                                     <h2><a href="#intro" class="scrollto">ACT2024</a></h2>
                                     <p> Agni is devoted to excellence in teaching, learning, and research, and to developing leaders across disciplines who make a positive difference in the world. The greatest strength of any institution “ is its people, and Agni is proud to have an excellent set of academicians, research scholars
@@ -881,21 +868,21 @@ Sponsors Section
                                 <div class="col-lg-3 col-md-6 footer-links">
                                     <h4>Useful Links</h4>
                                     <ul>
-                                        <li><i class="fa fa-angle-right"></i> <a href="#intro">Home</a></li>
-                                        <li><i class="fa fa-angle-right"></i> <a href="#about">About</a></li>
-                                        <li><i class="fa fa-angle-right"></i> <a href="#schedule">Our History</a></li>
-                                        <li><i class="fa fa-angle-right"></i> <a href="#supporters">Organizing Committee</a></li>
-                                        <li><i class="fa fa-angle-right"></i> <a href="#gallery">Gallery</a></li>
+                                        <li><i class="fas fa-angle-right"></i> <a href="#intro">Home</a></li>   
+                                        <li><i class="fas fa-angle-right"></i> <a href="#about">About</a></li>
+                                        <li><i class="fas fa-angle-right"></i> <a href="#schedule">Our History</a></li>
+                                        <li><i class="fas fa-angle-right"></i> <a href="#supporters">Organizing Committee</a></li>
+                                        <li><i class="fas fa-angle-right"></i> <a href="#gallery">Gallery</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-3 col-md-6 footer-links">
                                     <h4>Useful Links</h4>
                                     <ul>
-                                        <li><i class="fa fa-angle-right"></i> <a href="http://ACT.ieeesabah.org/ACT2022.html">ACT 2022</a></li>
-                                        <li><i class="fa fa-angle-right"></i> <a href="index.html">ACT 2021</a></li>
-                                        <li><i class="fa fa-angle-right"></i> <a href="https://sites.google.com/view/icaiet/home" target="_blank">ACT 2020</a></li>
-                                        <li><i class="fa fa-angle-right"></i> <a href="https://sabah.ieeemy.org/" target="_blank">heading 1</a></li>
-                                        <li><i class="fa fa-angle-right"></i> <a href="https://www.ums.edu.my/v5/" target="_blank">heading 2</a></li>
+                                        <li><i class="fas fa-angle-right"></i> <a href=#>ACT 2022</a></li>
+                                        <li><i class="fas fa-angle-right"></i> <a href="index.html">ACT 2021</a></li>
+                                        <li><i class="fas fa-angle-right"></i> <a href=# target="_blank">ACT 2020</a></li>
+                                        <li><i class="fas fa-angle-right"></i> <a href=# target="_blank">heading 1</a></li>
+                                        <li><i class="fas fa-angle-right"></i> <a href=# target="_blank">heading 2</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-3 col-md-6 footer-contact">
@@ -905,14 +892,6 @@ Sponsors Section
                                         <strong>Phone:</strong> 044-49972900<br>
                                         <strong>Email:</strong> mail@act.edu.in<br>
                                     </p>
-                                    <!-- <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-            -->
                                 </div>
                             </div>
                         </div>
@@ -922,16 +901,26 @@ Sponsors Section
                             &copy; Copyright <strong>Agni College of Technology 2024</strong>. All Rights Reserved
                         </div>
                         <div class="credits">
-    <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent-->
                         </div>
                     </div>
                 </footer>
+        <!-- 
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fasfa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fasfa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fasfa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fasfa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fasfa-linkedin"></i></a>
+            </div>
+        -->
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+        -->
                 <!-- #footer -->
-                <a href="#" class="back-to-top" style="font-size: 24px;">&#9650;</a>
+                <a href="#" class="back-to-top"><i class="fas fa-angle-up"></i></a>
                 <!-- JavaScript Libraries -->
                 <script src="lib/jquery/jquery.min.js"></script>
                 <script src="lib/jquery/jquery-migrate.min.js"></script>
